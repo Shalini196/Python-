@@ -1,0 +1,8 @@
+v="aeiouAEIOU"
+s=input("ins")
+y=""
+for i in s:
+    if i in v:
+        y=y+"#"
+    y=y+i
+print(y)
