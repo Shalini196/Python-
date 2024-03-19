@@ -1,0 +1,17 @@
+n=int(input("enter"))
+y=[]
+for i in range(1,n+1):
+    if n%i==0:
+        y.append(i)
+    i=i+1
+for i in y:
+    print(i)
+
+output:
+enter20
+1
+2
+4
+5
+10
+20
